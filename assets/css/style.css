@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
 :root{
-  --primaryhover : #9ebae6;
+  --primaryhover : rgb(255, 255, 255);
 }
 
 html {
@@ -19,8 +19,10 @@ body {
   background: rgb(238, 174, 202);
   background: radial-gradient(
     circle,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(148, 187, 233, 1) 100%
+    rgb(238, 174, 202) 0%,
+    rgba(0, 255, 245, 1) 100%
+    /* rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100% */
   );
 }
 /*custom scrollbar*/
@@ -292,7 +294,7 @@ header ul li a {
 
 header ul li a:hover,
 header ul li a.active {
-  background: #9ebae6;
+  background: var(--primaryhover);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -428,7 +430,7 @@ header ul li a.active {
 }
 
 .column a:hover {
-  background: #9ebae6;
+  background: var(--primaryhover);
   box-shadow: 0 5px 10px rgba(255, 255, 255, 0.05);
 }
 
@@ -868,7 +870,7 @@ header ul li a.active {
 }
 
 .repo-card:hover {
-  box-shadow: 0 20px 30px -10px var(--primaryhover);
+  box-shadow: 0 20px 30px -10px rgb(0, 234, 211);
   background: rgba(255, 255, 255, 0.5);
 }
 
