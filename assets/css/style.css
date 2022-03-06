@@ -1106,7 +1106,7 @@ footer ul li a.active {
   opacity: 1;
   visibility: visible;
 }
-/* Loader
+/* Loader 0
 #preloader{
   background: #000 url("./assets/preloader.gif") no-repeat center center;
   background-size: 50%;
@@ -1115,8 +1115,9 @@ footer ul li a.active {
   position: fixed;
   z-index: 100;
 } */
-
-.preloader{
+/* preloader 0 end */
+/* preloader 1 */
+/* .preloader{
   position: fixed;
   top: 0;
   display: flex;
@@ -1160,4 +1161,6 @@ footer ul li a.active {
   opacity: 0;
   transition: 1s;
   pointer-events: none;
-}
+} */
+/* preloader 1 end */
+
